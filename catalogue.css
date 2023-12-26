@@ -1,0 +1,42 @@
+/* Add grey background color */
+.topnav {
+    background-color: #808080;
+    overflow: hidden;
+}
+
+/* Style links inside nav bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* form content */
+form {
+    display: grid;
+    grid-gap: 5px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+label {
+    float: left;
+    width: 200px;
+    padding-right: 24px;
+}
+
+input { 
+    float: left;
+    width: calc(100% - 200px);
+}
+
+button {
+    float: right;
+    width: calc(100% - 200px);
+}
+
+
