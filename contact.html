@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="contact.css">
+  <h1>Contact Us</h1>
+  <!--source: https://www.w3schools.com/howto/howto_css_contact_form.asp-->
+  <title>Contact Page</title>
+</head>
+
+<body>
+  <div class="navbar">
+    <nav>
+      <a href="index.php">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <div class="dropdown">
+        <button class="dropbtn">Catalogue<i class="fa fa-caret-down"></i></button>
+        <div class="dropdown-content">
+          <a href="books.html">Books</a>
+          <a href="journals.html">Journals</a>
+          <a href="dissertations.html">Dissertations</a>
+          <a href="images.html">Images</a>
+          <a href="videos.html">Videos</a>
+        </div>
+      </div>
+      <input type="text" placeholder="Search">
+      <img src="../library/Images/search.svg" alt="logo">
+      <a href="login.php">Login</a>
+      <a href="register.php">Register</a>
+      <!--<img src="C:\Users\adida\OneDrive - Carleton University\Year 4\Semester 2\IRM4900A (IRM Capstone Project)\IRM Capstone Project Research Paper & Presentation\Work\Code\Toan\Images\search.svg" alt="logo">-->
+    </nav>
+  </div>
+
+
+  <div class="container">
+    <form action="contact.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="First Name">
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Last Name">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="email">
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write your message here..." style="height:300px"></textarea>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+
+</body>
+<p>Find items through our LMS. Contact us if you need help searching for items.</p>
+
+
+</html>
